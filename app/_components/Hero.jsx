@@ -22,10 +22,12 @@ const Hero = () => {
             <div className="space-between flex flex-col gap-10 lg:py-24">
               <div>
                 <h2 className="text-[2.25rem] font-bold">
-                  Find & Book Appointment with the Physician you need.
+                  Find & Book <span className="text-primary">Appointment</span>{" "}
+                  with the <span className="text-primary">Physician</span> you
+                  need.
                 </h2>
 
-                <p className="mt-4 font-semibold text-gray-600">
+                <p className="mt-4 text-lg font-semibold text-gray-600">
                   Access quality healthcare with our dedicated physicians, even
                   if you don't have insurance. We're here to provide affordable,
                   compassionate care for everyone.
